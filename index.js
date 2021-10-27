@@ -20,3 +20,33 @@ if (!Number.isNaN(anotherNumber)) {
 } else {
     console.log("Not given a number")
 }
+
+// while loops 
+let number = 0; 
+while (number <=12) {
+	console.log(number);
+	number = number + 1;
+}
+
+let result = 1 
+let counter = 0
+while (counter < 10) {
+	result = result * 2;
+	counter = counter + 1
+}
+console.log(result);
+
+// while loops written as for loops
+
+for (let number = 0; number <= 12; number = number + 1) {
+	console.log(number)
+}
+
+let result1 = 1;
+for (let number = 0; number < 10 ; number = number + 1) {
+	result1 = result1 * 2; 
+}
+
+console.log(result1);
+
+	
