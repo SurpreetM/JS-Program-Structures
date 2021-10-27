@@ -49,4 +49,16 @@ for (let number = 0; number < 10 ; number = number + 1) {
 
 console.log(result1);
 
+
+//  Using keyword break within a loop
+for (let current = 20; ; current = current + 1) {
+	if (current % 7 === 0) {
+		console.log(current);
+		break;
+	}
+}
+
+
+
+
 	
