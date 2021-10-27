@@ -59,6 +59,13 @@ for (let current = 20; ; current = current + 1) {
 }
 
 
-
-
+let result2 = 1
+for(let number = 0; ; number +=1){
+    result2 = result2 * 2
+    //console.log("here")
+    if (number > 8){
+        break;
+    }
+}
+console.log(result2)
 	
