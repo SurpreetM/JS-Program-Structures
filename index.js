@@ -58,7 +58,7 @@ for (let current = 20; ; current = current + 1) {
 	}
 }
 
-
+//Using break keyword to refactor 2^10
 let result2 = 1
 for(let number = 0; ; number +=1){
     result2 = result2 * 2
@@ -68,4 +68,21 @@ for(let number = 0; ; number +=1){
     }
 }
 console.log(result2)
+
+//switch statement
+
+let weather = "sunny"
+
+switch (weather) {
+	case "rainy":
+		console.log("Remember to bring an umbrella");
+		break;
+	case "sunny":
+		console.log("Dress lightly");
+	case "cloudy":
+		console.log("Go outside");
+		break;
+	default:
+		console.log("Unknown weather");
+}
 	
